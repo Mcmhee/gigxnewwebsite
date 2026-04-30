@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 
 const ANDROID_URL = "https://play.google.com/store/apps/details?id=com.giggroup.gigxpadmobile";
