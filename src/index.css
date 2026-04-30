@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Rubik', -apple-system, BlinkMacSystemFont, sans-serif;
+    @apply bg-white text-gray-900 antialiased overflow-x-hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: #fce4e4;
+    color: #7a1a1a;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/80 backdrop-blur-xl border border-white/40 shadow-sm;
+  }
+  .glass-dark {
+    background-color: rgba(22, 46, 56, 0.85);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255,255,255,0.08);
+  }
+  .hero-glow-left {
+    position: absolute;
+    top: -80px;
+    left: -80px;
+    width: 520px;
+    height: 520px;
+    background: radial-gradient(circle, rgba(173,216,230,0.45) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .hero-glow-right {
+    position: absolute;
+    top: -80px;
+    right: -80px;
+    width: 520px;
+    height: 520px;
+    background: radial-gradient(circle, rgba(255,182,193,0.40) 0%, transparent 70%);
+    pointer-events: none;
+  }
+}
