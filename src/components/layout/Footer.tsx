@@ -15,7 +15,7 @@ const LINKS: Record<string, { label: string; to?: string; href?: string }[]> = {
     { label: "Terms of Use", to: "/terms-of-use" },
   ],
   Contact: [
-    { label: "support@gigxpad.com", href: "mailto:support@gigxpad.com" },
+    { label: "apps@gigxpad.com", href: "mailto:apps@gigxpad.com" },
     { label: "WhatsApp Chat", href: "https://wa.me/message/gigxpad" },
   ],
 };
@@ -109,10 +109,10 @@ export const Footer = () => {
             reserved.
           </p>
           <a
-            href="mailto:support@gigxpad.com"
+            href="mailto:apps@gigxpad.com"
             className="text-white/40 hover:text-white text-sm transition-colors"
           >
-            support@gigxpad.com
+            apps@gigxpad.com
           </a>
         </div>
       </div>

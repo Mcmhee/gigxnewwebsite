@@ -81,7 +81,7 @@ However, no method of electronic transmission or storage is 100% secure. While w
 • **Right to Data Portability**: Receive your personal data in a structured, machine-readable format.
 • **Right to Object**: Object to processing of your personal data where we rely on legitimate interests.
 
-To exercise any of these rights, please contact us at support@gigxpad.com. We will respond to your request within 30 days.`,
+To exercise any of these rights, please contact us at apps@gigxpad.com. We will respond to your request within 30 days.`,
   },
   {
     title: '8. Cookies and Tracking Technologies',
@@ -105,7 +105,7 @@ If you are located in the European Economic Area (EEA) or the United Kingdom, pl
     title: '10. Children\'s Privacy',
     content: `Our Services are not directed to individuals under the age of 18. We do not knowingly collect personal information from children under 18. If we become aware that a child under 18 has provided us with personal information, we will take steps to delete such information.
 
-If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us at support@gigxpad.com.`,
+If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us at apps@gigxpad.com.`,
   },
   {
     title: '11. Changes to This Policy',
@@ -118,7 +118,7 @@ Your continued use of the Services after we post any modifications to the Privac
     content: `If you have any questions, concerns, or requests regarding this Privacy Policy or our privacy practices, please contact us at:
 
 **Gigx Technologies Inc.**
-Email: support@gigxpad.com
+Email: apps@gigxpad.com
 Website: https://gigxpad.com
 
 We take your privacy seriously and will respond to all queries within 5 business days.`,
@@ -198,7 +198,7 @@ export const PrivacyPolicy = () => {
             Reach out to our support team if you have any questions about how we handle your data.
           </p>
           <a
-            href="mailto:support@gigxpad.com"
+            href="mailto:apps@gigxpad.com"
             className="inline-flex items-center gap-2 bg-[#e25a5a] hover:bg-[#d13f3f] text-white px-8 py-3.5 rounded-full font-bold text-sm transition-all hover:-translate-y-0.5 shadow-lg shadow-[#e25a5a]/30"
           >
             Contact Support

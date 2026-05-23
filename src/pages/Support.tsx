@@ -98,7 +98,7 @@ const faqSections = [
       },
       {
         q: "Where can I go if I have more questions?",
-        a: "You can reach our support team 24/7 via the in-app chat, WhatsApp, or email at support@gigxpad.com. We typically respond within 5 minutes during business hours.",
+        a: "You can reach our support team 24/7 via the in-app chat, WhatsApp, or email at apps@gigxpad.com. We typically respond within 5 minutes during business hours.",
       },
     ],
   },
@@ -364,9 +364,9 @@ export const Support = () => {
                 {
                   icon: Mail,
                   title: "Send us an email",
-                  desc: "Email our team at support@gigxpad.com. We reply within a few hours.",
+                  desc: "Email our team at apps@gigxpad.com. We reply within a few hours.",
                   action: "Email Support",
-                  href: "mailto:support@gigxpad.com",
+                  href: "mailto:apps@gigxpad.com",
                   color: "#e25a5a",
                   bgColor: "#fdf2f2",
                   borderColor: "#f9c9c9",

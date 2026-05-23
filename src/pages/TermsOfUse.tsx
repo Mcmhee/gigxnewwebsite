@@ -126,7 +126,7 @@ IN NO EVENT SHALL XPAD BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUE
     title: '9. Terms and Termination',
     content: `These Terms are effective from the date you first access our Services and will remain in effect until terminated.
 
-You may terminate your account at any time by contacting support@gigxpad.com and following our account closure procedures. Note that applicable financial regulations may require us to retain certain data after closure.
+You may terminate your account at any time by contacting apps@gigxpad.com and following our account closure procedures. Note that applicable financial regulations may require us to retain certain data after closure.
 
 XPAD may suspend or terminate your access to the Services immediately and without notice if:
 
@@ -166,7 +166,7 @@ Notwithstanding the foregoing, either party may seek injunctive or other equitab
         text: `If you have any questions about these Terms, please contact us:
 
 **Gigx Technologies Inc.**
-Email: support@gigxpad.com
+Email: apps@gigxpad.com
 Website: https://gigxpad.com`,
       },
     ],
@@ -274,7 +274,7 @@ export const TermsOfUse = () => {
             Reach out to our support team with any questions about these Terms of Use.
           </p>
           <a
-            href="mailto:support@gigxpad.com"
+            href="mailto:apps@gigxpad.com"
             className="inline-flex items-center gap-2 bg-[#e25a5a] hover:bg-[#d13f3f] text-white px-8 py-3.5 rounded-full font-bold text-sm transition-all hover:-translate-y-0.5 shadow-lg shadow-[#e25a5a]/30"
           >
             Contact Support

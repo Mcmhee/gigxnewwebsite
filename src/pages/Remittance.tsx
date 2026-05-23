@@ -846,7 +846,7 @@ export const Remittance = () => {
                   Chat on WhatsApp
                 </a>
                 <a
-                  href="mailto:support@gigxpad.com"
+                  href="mailto:apps@gigxpad.com"
                   className="inline-flex items-center justify-center gap-2 bg-white border border-gray-200 text-[#162e38] px-8 py-4 rounded-full font-semibold transition-all hover:bg-[#f2f6f7] hover:-translate-y-0.5"
                 >
                   Email Support
