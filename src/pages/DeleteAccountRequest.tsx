@@ -1,4 +1,5 @@
-import { FormEvent, useState } from "react";
+import { useState } from "react";
+import type { FormEvent } from "react";
 import { AlertTriangle, CheckCircle2, Trash2 } from "lucide-react";
 
 type DeleteRequestForm = {
