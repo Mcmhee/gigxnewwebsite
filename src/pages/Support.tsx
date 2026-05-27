@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 // ── Real app store URLs ──────────────────────────────────────────
 const ANDROID_URL =
@@ -23,7 +24,10 @@ const fadeUp = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.5, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] },
+    transition: {
+      duration: 0.5,
+      ease: [0.22, 1, 0.36, 1] as [number, number, number, number],
+    },
   },
 };
 const stagger = { visible: { transition: { staggerChildren: 0.09 } } };
@@ -414,6 +418,30 @@ export const Support = () => {
                 ),
               )}
 
+              <motion.div variants={fadeUp}>
+                <Link
+                  to="/delete-account-request"
+                  className="bg-white rounded-2xl p-6 border border-[#f9c9c9] hover:shadow-md transition-all duration-200 hover:-translate-y-0.5 group flex flex-col gap-4"
+                >
+                  <div className="w-11 h-11 rounded-xl flex items-center justify-center bg-[#fdf2f2]">
+                    <User className="w-5 h-5 text-[#e25a5a]" />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-[#162e38] mb-1">
+                      Request account deletion
+                    </h3>
+                    <p className="text-[#67777e] text-sm leading-relaxed">
+                      Need to close your XPAD account? Submit your email and
+                      payout bank details here.
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-1.5 font-semibold text-sm mt-auto text-[#e25a5a]">
+                    Open Form
+                    <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  </div>
+                </Link>
+              </motion.div>
+
               {/* Support stats */}
               <motion.div
                 variants={fadeUp}
@@ -444,7 +472,7 @@ export const Support = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.55 }}
-              className="lg:col-span-3 bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden"
+              className="lg:col-span-3 self-start h-fit bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden"
             >
               <div className="p-8">
                 <h3 className="text-xl font-bold text-[#162e38] mb-1">

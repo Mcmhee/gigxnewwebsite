@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 
-const ANDROID_URL = "https://play.google.com/store/apps/details?id=com.giggroup.gigxpadmobile";
+const ANDROID_URL =
+  "https://play.google.com/store/apps/details?id=com.giggroup.gigxpadmobile";
 
 export const Navbar = () => {
   const location = useLocation();
